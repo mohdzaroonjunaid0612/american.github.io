@@ -1,0 +1,125 @@
+@media only screen and (max-width: 767px){
+    .header{
+        position: inherit;
+    }
+    .titleHighlight:before{
+        display:none;
+    }
+    .leftLogo{
+        margin:0 auto;
+    }
+    .bannerLeft{
+        height: auto;
+        padding-left: 0px;
+    }
+    .large_heading {
+        font-size: 35px;
+    }
+    .textBanner{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .rightBanner{
+        position: static;
+        transform: translateY(0);
+        margin: 10px 0;
+        width: 100%;
+        padding:20px 10px 0 10px;
+    }
+    .containerFull{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .banner{
+        margin-bottom:30px;
+    }
+    .banner, .rightBlock img{
+        height: auto;
+    }
+    .rightBlock img{
+        margin:20px 0;
+    }
+    .leftCertificate img{
+        width: 50vw;
+    }
+    .leftCertificate{
+        text-align: center;
+    }
+    .textCertificate h4{
+        margin:20px 0;
+        text-align: center;
+    }
+    .sub_heading {
+        font-size: 22px;
+    }
+    .heading{
+        font-size: 33px;
+    }
+    .workItem{
+        margin-bottom: 30px;
+    }
+    .mainForm {
+        padding: 30px 0px 0;
+    }
+    .mainForm h4{
+        padding:0 20px;
+    }
+    .itemGarage:before{
+        display: none;
+    }
+    .rightCopy{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .form-floating{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-floating input{
+        order:2;
+        padding-top: .625rem !important;
+    }
+    .iti--allow-dropdown{
+        order:2;
+    }
+    .formItem{
+        margin-bottom: 15px;
+    }
+    .form-floating label{
+        order: 1;
+        position: static;
+        color: #fff;
+        padding:0px 10px 0;
+    }
+    .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label{
+        opacity: 1;
+        transform: scale(1) translateY(0) translateX(0)
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    
+}
+@media (min-width: 1024px){
+   
+}
+@media (min-width: 1280px){
+	.containerFull{
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 0 70px;
+	}
+    .groundImg{
+        width: 700px;
+    }
+}
+@media (min-width: 1600px){
+	.containerFull{
+		max-width: 1366px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1080px;
+    }
+}
